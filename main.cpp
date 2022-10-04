@@ -9,7 +9,6 @@ int main(int argc, char **argv)
     SudokuGrid sudoku_grid;
     if(argc == 2){
         ifstream grid_file(argv[1]);
-        string grid, buffer;
         grid_file >> sudoku_grid;
         grid_file.close();
     } 
